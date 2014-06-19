@@ -1,0 +1,23 @@
+{
+    "name": "wajatimur/auto-rewrite-base",
+    "type": "library",
+    "description": "Auto RewriteBase",
+    "keywords": ["apache","rewrite","auto","rewritebase"],
+    "authors": [
+        {
+            "name": "Azri Jamil",
+            "email": "azri@nematix.com",
+            "homepage": "http://wajatimur.wordpress.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.0",
+    },
+    "autoload": {
+        "psr-0": {
+            "Foundation\\Server\\Apache": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
